@@ -19,6 +19,6 @@ app.get("/results", function(req, res){
     });
 });
 
-app.listen("3000", function(){
-    console.log("Movie App has started!");
+app.listen("3000", function(){      //type localhost:3000 in your browser
+    console.log("Movie App has started!");      //prompts to the user that the server is working
 })
